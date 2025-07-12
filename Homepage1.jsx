@@ -6,7 +6,7 @@ export function HomePage() {
 
   useEffect(() => {
     fetch("https://api.api-ninjas.com/v1/cars?limit=6", {
-      headers: { 'X-Api-Key': '6a42gve772hw6hsyeu7e7h37he83j77' }
+      headers: { 'X-Api-Key': '6a2gve2hw6hsyeu7e0hygl3h37he3j7' }
     })
       .then(res => res.json())
       .then(data => {
